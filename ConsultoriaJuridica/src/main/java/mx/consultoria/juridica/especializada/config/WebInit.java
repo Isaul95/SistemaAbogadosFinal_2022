@@ -1,0 +1,25 @@
+package mx.consultoria.juridica.especializada.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+@Configuration
+public class WebInit extends AbstractAnnotationConfigDispatcherServletInitializer{
+
+	@Override
+	protected Class<?>[] getRootConfigClasses() {
+		return new Class <?> [] {RootConfig.class};
+	}
+
+	@Override
+	protected Class<?>[] getServletConfigClasses() {
+		return new Class<?>[] {WebConfig.class};
+	}
+
+	@Override
+	protected String[] getServletMappings() {
+		return new String[]{"/"}; 
+// "/"  Si kio el -> / y tengo folder -> assets en webapp todo bien pero si lo pongo de nuevo marca erro ?
+	}
+		
+}

@@ -1,0 +1,147 @@
+<style>
+ @charset "ISO-8859-1";
+<!--Atributos principales-->
+","after,":before{ /*AFTER AND BEFORE DE LA EJECUCIÓN DEL SIMBOLO DE CARGA*/
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#contenedor_carga{ /*ESTILO PARA EL CONTENEDOR CARGA*/
+	background-color: rgb(250,240,245,0.9);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease; 
+	transition: all 1s ease;
+	z-index: 10000;
+}
+#carga{/*ESTILO PARA LA CARGA*/
+	border: 15px solid #ccc; 
+	border-top-color: #344DB2; /*F4266A;*/
+	border-top-style: groove;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+","after,":before{ /*AFTER AND BEFORE DE LA EJECUCIÓN DEL SIMBOLO DE CARGA PARA EVENTOS DEL BOTON*/
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#contenedor_loading{ /*ESTILO PARA EL CONTENEDOR CARGA EN EVENTOS DEL BOTON*/
+	background-color: rgb(250,240,245,0.9);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease; 
+	transition: all 1s ease;
+	z-index: 10000;
+}
+#loading{/*ESTILO PARA LA CARGA EN EVENTOS DEL BOTON*/
+	border: 15px solid #ccc; 
+	border-top-color: #344DB2; /*F4266A;*/
+	border-top-style: groove;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+@keyframes girar{
+	from{ transform: rotate(0deg);}
+	to{ transform: rotate(360deg);}
+}
+h2, h3 {
+	color: black;
+}
+
+h4, h1 {
+	color: white;
+}
+
+h6 {
+	float: right;
+}
+
+#lecturads, #actualizacionuuid, #subprocesonormal, #subprocesoreverso,
+	#subprocesopagos {
+	text-align: center;
+}
+
+img {
+	float: right;
+}
+
+button {
+	color: black;
+}
+
+#Encabezado {
+	background-color: #000040;
+}
+
+#Pie_de_pagina {
+  background-color: #00ff80;
+}
+
+p {
+	color: blue;
+}
+
+#PICP {
+	width: 25%;
+}
+
+#acciones {
+	width: 2%;
+}
+
+#estado {
+	width: 8%;
+}
+
+#jarname {
+	width: 20%;
+}
+#MainMenu{
+	float:right;
+}
+#MemoriaLink{
+	float:left;
+}
+#Aplicativos{
+	float:left;
+}
+#ParametrosLink{
+float:left
+}
+#imgcontainer{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}#Nombre_usuario{
+	float:right;
+}
+</style>

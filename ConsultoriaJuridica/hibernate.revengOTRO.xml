@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="ABOGADO"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="ACCESO_USUARIOS"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="ASUNTO"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="ASUN_ABOG_CLIEN"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="CATALOGO_JUZGADO"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="CATALOGO_RAMO"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="CLIENTE"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="HISTORICO_CASOS"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="JUZGADO"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="ROLES_USUARIOS"/>
+  <table-filter match-schema="CONSULTORIAJURIDICA" match-name="SECRETARIA"/>
+</hibernate-reverse-engineering>
